@@ -29,4 +29,13 @@ body{
     margin-right: 1rem;
   }
 
- 
+ /* practice */
+ #btn{
+    background-color: blue;
+    color:white
+}
+
+.head{
+    text-decoration: underline;
+    color: purple;
+}
