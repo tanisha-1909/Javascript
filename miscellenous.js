@@ -83,3 +83,52 @@ console.log(student);
 // {name: 'aman', marks: 95, prop: Window}
 console.log(student.getName());
 console.log(student.getmarks());
+
+
+// exercise
+
+// WriteanarrowfunctionnamedarrayAveragethatacceptsanarrayofnumbersandreturnstheaverageofthosenumbers
+const arrayAverage=(arr)=>{
+
+    let sum=0;
+    for(let i=0;i<arr.length;i++){
+        sum+=arr[i];
+    }
+    return sum;
+}
+console.log(arrayAverage([2,3,4]));
+
+
+// WriteanarrowfunctionnamedisEven()thattakesasinglenumberasargumentandreturnsifitisevenornot
+
+const isEven=(num)=>{
+    if(num %2==0) return "iseven";
+    return "odd";
+}
+console.log(isEven(66));
+
+
+const object={
+    message: "HEllo, world!",
+
+    logmessage(){
+        console.log(this.message);
+    }
+};
+setTimeout(object.logmessage,1000);
+// o/p undefined
+
+
+let length=4;
+function callback(){
+    console.log(this.length);
+}; 
+
+const objectt={
+    length:5,
+    method(callback){
+        callback(); //regular function call
+    }
+};
+
+objectt.method(callback,1,2);
