@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+.main{
+    margin: auto;
+    width: 220px;
+    
+}
+
+.box{
+    width: 200px;
+    margin: auto;
+    padding-left: 10px;
+}
