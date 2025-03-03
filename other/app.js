@@ -42,6 +42,7 @@ console.log(jsRes); //{"fact":"its all okay"}
 // api request
 // using fetch
 let url="https://catfact.ninja/fact";
+
 fetch(url);
 
 // inspect - network- response
@@ -100,3 +101,21 @@ async function getfacts() {
 getfacts();
 
 
+// ----------------------
+// axios- library to make axios request
+// npm install axios- to install
+async function getfacts(){
+    try{
+        let res=await axios.get(url);
+        console.log(res);
+        // {data: {…}, status: 200, statusText: '', headers: r, config: {…}, …}
+        console.log(res.data.fact);
+        // ats hate the water because their fur does not insulate well
+    }
+    catch(e){
+        console.log("error",e);
+    }
+}
+
+getfacts();
+// need of axios- directly data is in readable format , no need to parse
