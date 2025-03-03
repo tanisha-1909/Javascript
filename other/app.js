@@ -119,3 +119,40 @@ async function getfacts(){
 
 getfacts();
 // need of axios- directly data is in readable format , no need to parse
+
+
+// sending header through axios
+
+let link="https://catfact.ninja/fact";
+
+async function getJokes(){
+    try{
+        const config={headers:{Accept:"application/json"}}; //passing header
+        let res=await axios.get(url,config);
+        console.log(res.data); //{fact: 'The average litter of kittens is between 2 - 6 kittens.', length: 55}
+    }
+    catch(e){
+        console.log("error",e);
+    }
+}
+getJokes();
+
+// modify query string
+
+let li="http://universities.hipolabs.com/search?name=";
+let country="nepal";
+
+async function getcollege() {
+    try{
+        let res=await axios.get(li+country);
+        console.log(res);
+    }catch(e){
+        console.log("error is",e);
+    }
+}
+getcollege();
+
+// 
+// name
+// : 
+// "Nepal Sanskrit University"
