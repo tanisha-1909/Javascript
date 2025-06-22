@@ -6,3 +6,11 @@ variable hosting:JavaScript moves declarations to the top of their scope before 
 
 var in loops vs let/const?
 var shares one scope in loop; let/const have block scope, so each iteration has its own.
+
+*data types*
+
+not present- char, int, float, double, short, long, struct, tuple, enum, pointerr
+
+typeof - used to get data type
+
+
