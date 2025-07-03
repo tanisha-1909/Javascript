@@ -38,19 +38,21 @@ x+y;
 console.log(k);
 var k=10;
 
-console.log(p);
+// console.log(p);
 let p=10;
 
 
-// assignment operator
+// assignment operator- to modify values of a variable
 x=x+3;
 x;
-x/=2;
+x/=2; //short form
 x;
 
-// unary
-y--;
+// unary operator
+y--; //y-=1
 
+
+// variable name can start with $ and _
 let $=3;
 
 let namee="tony";
