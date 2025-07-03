@@ -1,0 +1,43 @@
+1. which is better var or let?
+
+ans: let is better than var because it is block-scoped, which prevents unintended access outside of loops or conditionals.
+Also, let doesn't allow redeclaration in the same scope, making code cleaner and more predictable.
+
+Moreover,
+
+✅ 1. Scope
+var is function-scoped → visible outside the function.
+
+let is block-scoped → visible only within {} block.
+
+✅ 2. Redeclaration
+var can be redeclared in the same scope.
+
+let cannot be redeclared in the same scope → prevents mistakes.
+
+✅ 3. Hoisting Behavior
+var is hoisted and initialized as undefined.
+
+let is hoisted but not initialized → accessing before declaration causes a ReferenceError.
+
+
+2. What is variable hoisting? do let support hoisting?
+Ans. let is hoisted but not initalized . gives reference ReferenceError
+let is hoisted but stays in a Temporal Dead Zone (TDZ) until the line it's declared — accessing it before that throws an error.
+
+demo of let:
+console.log(p);
+let p=10;
+
+o/p is ----app.js:114 Uncaught ReferenceError: Cannot access 'p' before initialization
+
+case of var:
+---var is hoisted and automatically initialized to undefined.
+
+demo of var:
+
+
+console.log(k);
+var k=10;
+
+o/p - undefined

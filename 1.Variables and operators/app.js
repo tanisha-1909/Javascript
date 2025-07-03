@@ -1,9 +1,29 @@
+// ----*data types*
+//--not present- char, int, float, double, short, long, struct, tuple, enum, pointerr
+//--*typeof* - used to get data type
+//--NAN- not a number (ex 0/0)
+//--*operator precedence* - () , ** , {*,/,%} , {+,-} 
+
+// ----------------------------------------
+
 // syntax of declaring variables
 
+//--variables- container to store data
+// A variable is simply the name of storage location
+//      value inside the variable can be changed
+
+//--variable hosting:JavaScript moves declarations 
+//      to the top of their scope before code execution.
+
+// --var in loops vs let/const?
+// var shares one scope in loop; let/const have block scope, so each iteration has its own.
+
+// syntax:---------
 let age=23;
-age=age+1
-let b;
+age=age+1;
+let b; //without initalization
 b=4;
+
 // power
 let side=3;
 side=side**2;
@@ -12,6 +32,15 @@ side=side**2;
 var x=10;
 var y=20;
 x+y;
+
+
+// case of hoisting - see questions.txt
+console.log(k);
+var k=10;
+
+console.log(p);
+let p=10;
+
 
 // assignment operator
 x=x+3;
@@ -79,10 +108,12 @@ switch(color){
 }
 
 // alert
-alert("something is wrong");
+// alert("something is wrong");
 
-console.error("this is an error message")
-console.warn("warning message")
+// console.error("this is an error message")
+// console.warn("warning message")
 
-// prompt
-let name=prompt("enter name")
+// // prompt
+// let name=prompt("enter name")
+
+
