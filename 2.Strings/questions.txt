@@ -1,0 +1,47 @@
+1. methods in js: action that can performed on objects
+
+    string method:  string_name.method_name();
+
+    1.1 str.trim()- > to remove unwanted space from both end(not middle)
+    1.2 str.toUpperCase()
+    1.3 str.indexof("my")-index of first occurence of some value of string
+
+2. why strings are immutable?
+    let msg= '        he llo    ';
+    console.log(msg.trim());
+    console.log(msg); // no change in original
+
+3.Arguments- value passed to the method
+    string_name.method(arg1,arg2..)
+
+4. method chaining- one method after another ( order of execution - left to right )
+   str.toUpperCase().trim();
+
+5.slice- return part of original string as new string
+    str.slice(start_idx);
+    str.slice(start_idx,end_idx); (end is exclusive)
+    str.slice(-num)= str.slice(length-num);
+
+6.replace- search a value and replace it4
+
+    str.replace("love","do")
+    //replace - love with do
+
+    str.replace('o','x');
+    //only first occurence is replaced
+
+7.How to reverse a string in JavaScript?
+    let str = "Tanisha";
+    let reversed = str.split('').reverse().join('');
+    console.log(reversed); // "ahsinaT"
+
+8.Difference between slice(), substr(), and substring()?
+
+    slice(start, end): Extracts from start to end (not inclusive).
+
+    substr(start, length): Extracts length chars from start.
+
+    substring(start, end): Like slice() but can’t take negative indexes.
+
+9.lexographic sort string 
+    str1.split('').sort().join('') 

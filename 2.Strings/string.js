@@ -1,8 +1,8 @@
 // str.trim()- > to remove unwanted space from both end(not middle)
 
 let msg= '        he llo    ';
-
 console.log(msg.trim());
+console.log(msg); // no change in original
 
 // taking input and then trim
 password=prompt("enter password");
@@ -12,8 +12,8 @@ console.log(password.trim());
 console.log(password.toUpperCase());
 console.log(password.toLowerCase());
 
-// indexof-> index of first occurence of some value of string
-let str="ilovecoding   ";
+ 
+let str="ilovecoding   "; //14 length
 
 console.log(str.indexOf("love"));
 console.log(str.indexOf('o'));
@@ -24,15 +24,19 @@ console.log(str.toUpperCase().trim());
 
 // slice of string- part of string
 // zero based
-console.log(str.slice(5));
-console.log(str.slice(1,4));
-console.log(str.slice(-5)); 
+console.log(str.slice(5));//coding
+console.log(str.slice(1,4));//lov
+console.log(str.slice(-5)); //ng //14-5=9
 
 // replace - love with do
 console.log(str.replace("love","do"));
 
 // repeat
 console.log(str.repeat(3));
+
+//reverse
+str="tanisha"
+console.log(str.split('').reverse().join(''));
 
 
 // exercise
