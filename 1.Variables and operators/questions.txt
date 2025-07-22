@@ -75,3 +75,34 @@
     stricter version of js where data type cannot be changed
     it is static typed, whereas js is dynamic typed
     developed by microsoft
+
+8. what are template literals?
+     allow you to work with strings in a more flexible and readable way. 
+     They are enclosed by backticks (`) instead of single (') or double (") quotes.
+
+     ex:`My name is ${name} and I am ${age} years old.`;
+
+9.power symbol - **  
+    ex: 2**3 = 8
+
+10. == and ===
+    // equal to operator compare value, not data type
+    console.log(9=='9')  //true
+
+    //to compare type and value
+    console.log(8==='8') //false
+
+11. unicodes
+     Unicode is a standard for representing characters
+
+     //syntax- \uXXXX
+     const heart = '\u2665';      // ♥
+    const smile = '\u263A';      // ☺
+
+    lowercase letters > uppercse
+
+
+12.logical operators - && , || , ! 
+
+13. alert display alert message on screen (pop up)
+    prompt is small dialog box asking user for input

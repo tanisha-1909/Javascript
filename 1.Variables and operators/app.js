@@ -63,13 +63,15 @@ namee.length;
 
 console.log("hello world");
 console.log("tanisha","mahavar",x,(x+5)); 
-// template literal
 
-// backtick
+
+// template literal- uses backtick
 let pencil=5;
 let eraser=10;
+let duster=20;
 
 console.log(`total price is ${pencil+eraser} ruppes`);
+console.log(`adding price we get ${pencil+eraser+duster}`);
 console.log(pencil<eraser);
 
 // unicodes
@@ -78,10 +80,10 @@ console.log('A'<'a');
 console.log(6>6)
 
 // equal to operator compare value, not data type
-console.log(9=='9') 
+console.log(9=='9')  //true
 
 //to compare type and value
-console.log(8==='8')
+console.log(8==='8') //false
 
 console.log(3!=10)
 
@@ -99,23 +101,23 @@ else{
     console.log("SLOW");
 }
 // switch case
-switch(color){
-    case "red":
-        console.log("STOP");
 
+let c="red";
+
+switch(c){
     case "green":
-        console.log(`move ${color}`);
+        console.log("go");
+        break;
+    case "red":
+        console.log("stop");
+        break;
     default:
         console.log("slow");
 }
 
-// alert
-// alert("something is wrong");
+alert("danger people");//pop up
+console.error("testing error"); //in console
 
-// console.error("this is an error message")
-// console.warn("warning message")
-
-// // prompt
-// let name=prompt("enter name")
-
-
+prompt("enter name");
+let agee=prompt("enter age");
+console.log(agee);
