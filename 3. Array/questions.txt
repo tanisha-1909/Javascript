@@ -1,0 +1,66 @@
+1. arr.length() -- wrong
+    arr.length --correct
+
+2. arrays are mutable
+
+3.array methods
+    
+    // push :add to end
+    cars.push("toyota");
+    console.log(cars);
+    // ['bmw', 'audi', 'xuv', 'maruti', 'toyota']
+
+    // pop: delete from end
+    cars.pop();
+    console.log(cars);
+    // ['bmw', 'audi', 'xuv', 'maruti']
+
+
+    // unshift- push from start
+    cars.unshift("toyota");
+    console.log(cars);
+    //  ['toyota', 'bmw', 'audi', 'xuv', 'maruti']
+
+
+    // shift- pop from start
+    cars.shift();
+    console.log(cars);
+    // ['bmw', 'audi', 'xuv', 'maruti']
+
+
+4. arr.indexof(val): return -1 else index
+5.arr.includes(val): searches for a value (return true or false)
+
+6. arr1.concat(arr2) : merge 2 arrays
+
+7. arr1.reverse(): arr1 ACTUALLY CHANGES
+
+8. arr.slice(): original array copy
+    arr.slice(start), arr.slice(start,end), arr.slice(-idx)
+
+9.splice: removes/replace/add element
+    array_name.splice(start,deletecount,item0,item1,...);
+    **start are inclusive
+
+10.diff between slice and splice
+    slice: creates copy of original array
+    splice: changes in original array
+    
+11. array_name.sort()
+
+issue in sort: marks.sort();
+            console.log(marks);
+            // [100, 3003, 45, 52, 802]
+            // discrpencies- converts array to string
+
+12. array references: address
+    // references in array
+    // []==[]
+    // false
+
+    // [1]===[2]
+    // false
+
+    console.log(color[0]==color[0]);
+    // true
+    // color is called reference variable

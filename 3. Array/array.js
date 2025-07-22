@@ -10,7 +10,7 @@ console.log(marks.length);
 let mixed=[92,48,'a',0,"kai"];
 console.log(marks.length);
 
-let emptyarray=[];
+let emptyarray=[]; 
 console.log(emptyarray);
 console.log(emptyarray.length); //0
 
@@ -66,7 +66,7 @@ start.unshift('june');
 start.unshift('july');
 
 console.log(start);
-// july,june.march,august
+// july,june.march,augus t
 
 
 // index of - index of data item
@@ -217,7 +217,7 @@ console.log(a);
 // 1 2
 
 // this can't be done
-// a=[4,5,5];
+// a=[4,5,5]; reinitialization not possible
 // a=color;
 // assignment to constant values cannot be done
 // operations can be done
