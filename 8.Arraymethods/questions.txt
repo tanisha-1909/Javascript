@@ -1,0 +1,42 @@
+How is map different from forEach in JavaScript?
+
+A:forEach is used to iterate over an array and perform side-effects (like printing), but it does not return a new array.
+  map is used to transform an array and returns a new array based on the transformation
+
+
+Q: How does filter() work in JavaScript?
+
+A:filter() creates a new array with elements that pass a given condition (return true).
+
+Explain every() vs some() in arrays.
+
+A:every() returns true only if all elements satisfy the condition.
+some() returns true if at least one element satisfies the condition.
+
+Q.What is reduce() used for?
+A:reduce() reduces an array to a single value using an accumulator.
+
+Q: What does the ... (spread) operator do?
+A:Spread operator expands elements of an array or object.
+
+Q. How do you add a new property to every object in an array?
+
+A:Using map() with object spread:
+let updated = arr.map(obj => ({...obj, id: 123}));
+
+Q. What is destructuring in JavaScript?
+
+A:Destructuring allows unpacking values from arrays or properties from objects.
+let [a, b] = [1, 2]; // a = 1, b = 2
+
+
+
+
+
+
+
+
+
+
+
+
