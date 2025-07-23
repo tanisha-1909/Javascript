@@ -59,3 +59,11 @@ body.prepend(head);
 let line=document.createElement('p');
 line.innerHTML="<b>tanisha</b> mahavar";
 body.prepend(line);
+
+
+let para1=document.createElement('p');
+para1.innerText="Hey m red";
+para1.style.color='red';
+
+document.querySelector('body').appendChild(para1);
+

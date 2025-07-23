@@ -1,0 +1,7 @@
+events- user inputs /action
+
+ex: onclick
+onmouseennter
+
+
+2. element.addeventlistener(event,callback)

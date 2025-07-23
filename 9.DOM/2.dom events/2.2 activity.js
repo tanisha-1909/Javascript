@@ -15,4 +15,4 @@ btn.addEventListener("click",function(){
     div.style.backgroundColor =color;
     h2.innerText=color;
     h2.style.color=color;
-})
+});

@@ -1,0 +1,7 @@
+innertext: show visible text on website
+
+textcontent: shows all full text similar to how written in index.html
+
+innerhtml: text with html
+
+
