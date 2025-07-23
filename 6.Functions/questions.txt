@@ -1,0 +1,15 @@
+1.What is the difference between function declaration and function expression?
+Answer:
+Feature	Function Declaration	Function Expression
+Syntax	function foo() {}	const foo = function() {}
+
+2.What are parameters and arguments in functions?
+    Parameters are placeholders in function definition.
+    Arguments are actual values passed during function call.
+
+3.What is a rest parameter?
+    It allows a function to accept any number of arguments as an array.
+    function sum(...nums) {
+        return nums.reduce((a, b) => a + b, 0);
+        }
+        sum(1, 2, 3); // 6
