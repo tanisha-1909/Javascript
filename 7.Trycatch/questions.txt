@@ -1,0 +1,24 @@
+1. 1. What is the window object in JavaScript?
+Answer:The window object represents the global object in browsers. All global variables, functions, and objects are its properties.
+console.log(window === this); // true (in global scope)
+
+2.arrow functions
+//nameless
+const sum=(a+b)=>{
+    console.log(a+b);
+}
+
+3. function scope- calling object
+Arrow function - lexical scope- scope of parent
+
+4. What is setTimeout() in JavaScript?
+Answer:setTimeout() is a method that executes a function once after a specified delay in milliseconds.
+
+5.What is setInterval() in JavaScript?
+Answer:setInterval() repeatedly calls a function at fixed intervals (in milliseconds), until it's stopped using clearInterval().
+
+6. What is clearTimeout() and clearInterval()?
+Answer:clearTimeout(timeoutId) stops a timeout before it executes.
+clearInterval(intervalId) stops a repeating interval.
+
+7.Even if the delay is 0, the function is executed after the current call stack is cleared. It doesn't run instantly.

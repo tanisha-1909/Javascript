@@ -132,3 +132,48 @@ const objectt={
 };
 
 objectt.method(callback,1,2);
+
+
+
+
+//practice--------------
+
+const func= (arg1,arg2)=>{
+    console.log("arrow function");
+}
+func();
+
+const cubee=(n)=>{
+    return n*n*n;
+}
+console.log(cubee(2));
+
+const mul=(a,b)=>(
+    a*b
+)
+console.log(mul(2,3));
+
+const mull=(a,b) =>a*b; 
+
+
+setTimeout ( ()=>{
+    console.log("tanisha mahavar");
+}, 5000);
+
+let id6=setInterval(()=>{
+    console.log("multiple time");
+},2000)
+
+console.log("id id" ,id6);
+clearInterval(id6);
+
+const square=(n)=> n*n;
+
+let idd=setInterval(() => {
+    console.log("Hello world")
+}, 2000);
+
+setTimeout(()=>{
+    clearInterval(idd);
+},10000);
+

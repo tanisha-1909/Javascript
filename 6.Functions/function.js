@@ -78,6 +78,9 @@ const summ=function(a,b){
 }
 console.log(summ(1,2));
 
+let hello=function(){
+    console.log("hello");
+}
 
 // higher order
 let greet= function(){
@@ -108,7 +111,7 @@ console.log(calculator.sub(2,3));
 
 
 // exercise
-// WriteaJavaScriptfunctionthatreturnsarrayelementslargerthananumber
+// Write JavaScript function that returns array elements larger than a number
 
 function greater(arr,num){
     let res=[];
@@ -132,7 +135,6 @@ function unique(str){
         for(let j=0;j<ans.length;j++){
             if(ans[j]==str[i]){
                 flag=true;
-                false;
             }
         }
         if(flag==false){
