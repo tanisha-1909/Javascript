@@ -1,0 +1,12 @@
+1. What is an object literal in JavaScript?
+Answer:An object literal is a comma-separated list of key-value pairs enclosed in curly braces.
+
+2.How do you access properties of an object literal?
+Answer:
+Dot notation: object.property
+Bracket notation: object["property"]
+
+3. keys are read as string by js
+
+4.What happens with duplicate keys in object literals?
+Answer:The last key overwrites the previous one.
