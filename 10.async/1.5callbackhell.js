@@ -68,3 +68,4 @@ changecolor("red",1000)
 .catch(()=>{
     console.log("error in changing color");
 });
+

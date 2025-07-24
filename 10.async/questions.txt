@@ -1,0 +1,18 @@
+ 1. What is a Promise in JavaScript?
+ A Promise is an object that represents the eventual completion (or failure) of an asynchronous operation.
+
+ 2. 2. States of a Promise
+Pending – Initial state
+Fulfilled – Operation completed successfully
+Rejected – Operation failed
+
+3.async makes a function return a Promise.
+
+4.await pauses execution inside an async function until a Promise is resolved or rejected.
+
+5.How is async/await better than callbacks or .then() chaining?
+Cleaner and more readable syntax.
+Avoids callback hell.
+Easier error handling using try...catch.
+
+6.await is always used inside an async function
