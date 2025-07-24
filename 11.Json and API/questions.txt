@@ -1,0 +1,2 @@
+JSON.parse()  - json to js object
+JSON.stringify() - js object to json

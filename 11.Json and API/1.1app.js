@@ -19,7 +19,12 @@ let jsRes= JSON.stringify(validRes);
 console.log(jsRes); //{"fact":"its all okay"}
 
 // tool hopscoth postman
-// ajax
+
+// ajax- asynchronous javascript and xml (JSON)
+//process of api req res is asynchronous
+
+
+
 // http verbs- get post put delete quit etc
 
 // status code
