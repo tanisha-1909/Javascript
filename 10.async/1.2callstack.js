@@ -29,3 +29,6 @@ function three(){
 }
 
 console.log(three());
+
+// debugger;
+// The debugger keyword forces the browser to pause execution at that line, just like a manual breakpoint.
